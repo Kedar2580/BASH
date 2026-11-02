@@ -1,0 +1,8 @@
+p {
+  color: rgb(120, 157, 220);
+  font-size: larger;
+}
+
+.para-sf:hover {
+  color: red;
+}

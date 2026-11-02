@@ -1,0 +1,19 @@
+#hi {
+  text-shadow: 3px, 3px, red;
+}
+
+#box {
+  /* background-color: aqua; */
+  overflow: auto;
+  width: 200px;
+  height: 200px;
+  box-shadow: 10px, 10px;
+  border: 1px solid black;
+}
+#divi {
+  border: 1px solid black;
+  height: 200px;
+  width: 200px;
+  text-align: center;
+  text-shadow: 3px, 3px, red;
+}

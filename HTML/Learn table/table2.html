@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      table,
+      tr,
+      td,
+      th {
+        border: 1px solid black; 
+        border-collapse: collapse;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <caption>
+        My second Table
+      </caption>
+
+      <colgroup>
+        <col span="1" style="background-color: rgb(131, 209, 209)" />
+        <col span="1" style="background-color: rgb(147, 224, 147)" />
+        <col span="1" style="background-color: plum" />
+      </colgroup>
+
+      <tr>
+        <td rowspan="2">STATE OF HEALTH</td>
+        <td colspan="2">FASTING VALUE</td>
+        <td>AFTER EATING</td>
+        <!-- <td>123</td> -->
+      </tr>
+      <tr>
+        <td>MINIMUM</td>
+        <td>MAXIMUM</td>
+        <td>2hr AFTER EATING</td>
+        <!-- <td>123</td>  -->
+      </tr>
+      <tr>
+        <td>HEALTHY</td>
+        <td>70</td>
+        <td>100</td>
+        <td>LESS THA 140</td>
+      </tr>
+      <tr>
+        <td>PRE- DIABTIC</td>
+        <td>100</td>
+        <td>126</td>
+        <td>140 TO 200</td>
+      </tr>
+      <tr>
+        <td>DIABTIC</td>
+        <td>MORE THAN 126</td>
+        <td>NA</td>
+        <td>MORE THAN 200</td>
+      </tr>
+    </table>
+  </body>
+</html>

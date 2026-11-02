@@ -1,0 +1,21 @@
+/* p {
+  position: static;
+} */
+
+div {
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  background-color: aqua;
+  border: 1px solid;
+}
+
+.box3 {
+  position: relative;
+
+  top: 100px;
+}
+
+.box4 {
+  position: sticky;
+}
